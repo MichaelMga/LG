@@ -1,0 +1,15 @@
+
+ Bonjour,
+
+ En tant que développeur Full Stack, j'assure le développement frontend et backend des différents projets menés par une entreprise dans le secteur musical.
+
+ J'ai un intérêt pour l'algorithmie et je m'efforce d'appliquer au quotidien les concepts du livre Clean Code de Robert C. Martin, tout en restant persuadé qu'il y a toujours quelque chose de nouveau à apprendre.
+
+ Ce qui m'attire dans l'idée de travailler à microsoft :
+ Je souhaite rejoindre Microsoft car c'est un leader mondial dans le domaine de l'informatique, et je suis convaincu que je peux grandir et monter en compétences en travaillant pour une entreprise aussi grande et reconnue. Je sais que je peux apprendre et m'améliorer en travaillant au sein de cette entreprise, et je suis très enthousiaste à l'idée de faire partie de cette organisation.
+
+ Dans mon quotidien, j'utilise des technologies telles que Javascript, Typescript, NestJS, PHP, SQL, Docker..., et je suis toujours ouvert à l'apprentissage de nouveaux langages et frameworks.
+
+ Je serais ravi de discuter plus en détail de ma candidature lors d'un entretien.
+
+ Je vous remercie d'avance pour l'attention que vous porterez à ma candidature.
