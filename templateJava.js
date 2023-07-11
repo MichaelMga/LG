@@ -1,6 +1,6 @@
 const { jsPDF } = require('jspdf');
 
-const getResume = (company) => {
+const getJavaResume = (company) => {
 
 const doc = new jsPDF();
 
@@ -11,7 +11,7 @@ const doc = new jsPDF();
     ville: "Stains",
     telephone: "0652298970",
     email: "michaelmga.dev@gmail.com",
-    profil: "Passionné par l'informatique, je suis développeur web full stack en CDI depuis bientôt 2 ans, \nau sein de l'entreprise Bam Karaoké Box, à Paris.\nJe souhaite m'investir dans un nouveau projet sur la durée.\nSelon Bjarn Strousrup un développeur avancé doit maîtriser au moins 5 languages.\nJ'ai un grand intérêt pour l'apprentissage continu, le partage des connaissances et la résolution de problèmes.\nMon profil Medium : https://michaelmanga.medium.com/ \nMa chaîne YouTube : https://www.youtube.com/@michaelmanga9874",
+    profil: "Passionné par l'informatique, je suis développeur web full stack en CDI depuis bientôt 2 ans, \nau sein de l'entreprise Bam Karaoké Box, à Paris.\nJe souhaite m'investir dans un nouveau projet sur la durée.\nSelon Bjarn Strousrup un développeur avancé doit maîtriser au moins 5 languages.\nJe serais donc ravi de découvrir Java!\nJ'ai un grand intérêt pour l'apprentissage continu, le partage des connaissances et la résolution de problèmes.\nMon profil Medium : https://michaelmanga.medium.com/ \nMa chaîne YouTube : https://www.youtube.com/@michaelmanga9874",
     competences: "ReactJS, TypeScript, Git, Github, NestJS, Postgresql, ForestAdmin, Docker, AWS(S3, CodeBuild, CodePipeline), Git, Github",
     langues: "Français : Natif\nAnglais : Courant",
     experience: "Développeur Web Full Stack | BAM | 2021 - Présent\n\n- Développement et maintenance de nos applications (ReactJS/Typescript/Redux en frontend, NestJs/Postgresql en backend).\n- Utilisation de ForestAdmin pour la gestion des interfaces administratives.\n- Utilisation de Docker (Docker-compose) pour la conteneurisation des différents environnement.\n- Utilisation de services AWS tels que S3, CodeBuild et CodePipeline pour nos déploiements.\n- Collaboration interne avec les autres développeurs, et les autres départements de l'entreprise.\n- Résolution de problèmes complexes de développement web et d'optimisation des performances.\n-J'ai également été amené à implémenter des fonctionnalités sur une application SwiftUI \n\nPrincipales réalisations :\n\nAu sein d'une équipe multidisciplinaire, j'étais l'un des deux développeurs en charge du développement complet d'une application cloud pour les établissements BAM. Projet a lancé mi-2022 et a aujourd'hui abouti avec succès. Les retours sont très positifs de la part de nos clients et des équipes opérationnels concernant l'experience utilisateur en général. Il y'a encore des ajustements, mais le taux d'erreur est faible et beaucoup de problèmes potentiels ont été anticipés en amont.",
@@ -126,4 +126,4 @@ doc.save(`${company}/CV_Michael_Manga_${company}.pdf`);
 }
 
 
-module.exports = getResume;
+module.exports = getJavaResume;

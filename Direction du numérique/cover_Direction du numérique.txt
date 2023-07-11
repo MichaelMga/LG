@@ -1,0 +1,28 @@
+
+ Bonjour,
+
+ En tant que développeur Full Stack, j'assure actuellement le développement frontend et backend des différents projets menés par une entreprise dans le secteur musical.
+
+ J'ai un intérêt pour l'algorithmie et je m'efforce d'appliquer au quotidien les concepts du livre Clean Code de Robert C. Martin, tout en restant persuadé qu'il y a toujours quelque chose de nouveau à apprendre.
+
+ Ce qui m'attire dans l'idée de travailler à la direction du numérique :
+ Je cherche un projet qui m'engage. Et ce qui m'a attiré dans votre offre est la possibilité de contribuer au développement numérique français. 
+ C'est une mission qui me parait noble, et qui me donnerait envie de me lever tous les matins.
+ La possibilité d'épauler le secrétariat général, dans des activités touchant au logement et à l'urbanisme a également attiré mon attention. 
+ Je pense qu'il y'a énormément de challenges à relever au niveau national, dans ces domaines. 
+ On pourrait notamment citer le fait qu'un nombre important de francais dorment encore dans la rue aujourd'hui, ce qui m'apparait comme une anomalie à régler.
+
+ La programmation est pour moi plus qu'un moyen de gagner ma vie, et il m'est donc important d'être totalement engagé dans mon emploi.
+ J'ai pris connaissance du plan "se réinventer Ensemble".
+
+ 
+ Je suis aussi familier avec la plupart des technologies mentionnées dans votre annonce.   
+ En effet, dans mon quotidien, j'utilise des technologies telles que Javascript, Typescript, NestJS, PHP, SQL, Postgresql, Docker..., qui ont quasiment toutes été citées dans votre annonce.
+ Je reste cependant toujours ouvert à l'apprentissage de nouveaux langages et frameworks, car les concepts importent bien plus que les outils.
+
+ Je travaille depuis 2 ans la moitié du temps à distance (mon CTO appréciant étant adepte du télétravail, ce que j'apprécie). Je n'aurais donc aucun problème avec l'idée de travailler à distance.
+
+
+ Je serais ravi de discuter plus en détail de ma candidature lors d'un entretien.
+
+ Je vous remercie d'avance pour l'attention que vous porterez à ma candidature.

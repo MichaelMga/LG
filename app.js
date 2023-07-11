@@ -8,10 +8,18 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
+//cover types
+
+const defaultCover = "default";
+const javaCover = "java";
+
+let coverType = defaultCover;
 
 const initialParagraph = 'PARAGRAPH_EXPLAINING_WHY_I_WANT_TO_JOIN_THIS_COMPANY';
 
 const coverCreator = require("./template");
+
+const javaCoverCreator = require("./templateJava");
 
 
 
@@ -83,30 +91,39 @@ const saveText = (text, companyName) => {
 };
 
 const executeProgram = () => {
-  rl.question('Please, type a companyName: ', (name) => {
-    rl.question('Please, type keywords, separated by commas: ', async (keywords) => {
-      const generatedText = await generateText(name, keywords);
-      console.log(`Generated Text:\n${generatedText}`);
-      rl.question('Do you like this text? (c to cancel, r to retry, s to save): ', (answer) => {
-        switch (answer.toLowerCase()) {
-          case 'c':
-            rl.close();
-            break;
-          case 'r':
-            executeProgram();
-            break;
-          case 's':
-            saveText(generatedText, name);
-            rl.close();
-            break;
-          default:
-            console.log('Invalid option, please try again.');
-            executeProgram();
-            break;
-        }
+  rl.question(
+    'select a cover type (2 for Java)' , (coverType) => {
+
+        coverType = coverType === '2' ? javaCover : defaultCover;
+     
+      rl.question('Please, type a companyName: ', (name) => {
+        rl.question('Please, type keywords, separated by commas: ', async (keywords) => {
+          const generatedText = await generateText(name, keywords);
+          console.log(`Generated Text:\n${generatedText}`);
+          rl.question('Do you like this text? (c to cancel, r to retry, s to save): ', (answer) => {
+            switch (answer.toLowerCase()) {
+              case 'c':
+                rl.close();
+                break;
+              case 'r':
+                executeProgram();
+                break;
+              case 's':
+                saveText(generatedText, name);
+                rl.close();
+                break;
+              default:
+                console.log('Invalid option, please try again.');
+                executeProgram();
+                break;
+            }
+          });
+        });
       });
-    });
-  });
+
+    }
+  )
+
 };
 
 executeProgram();
